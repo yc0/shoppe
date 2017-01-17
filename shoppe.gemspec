@@ -5,8 +5,8 @@ require 'shoppe/version'
 Gem::Specification.new do |s|
   s.name        = 'shoppe'
   s.version     = Shoppe::VERSION
-  s.authors     = ['Adam Cooke', 'Dean Perry', 'Sahidur Rahman Suman']
-  s.email       = ['adam@atechmedia.com', 'dean@voupe.com', 'suman5040@gmail.com']
+  s.authors     = ['Adam Cooke', 'Dean Perry', 'Sahidur Rahman Suman','nelson lin']
+  s.email       = ['adam@atechmedia.com', 'dean@voupe.com', 'suman5040@gmail.com','nelson.lin.tw@gmail.com']
   s.homepage    = 'http://tryshoppe.com'
   s.summary     = 'Just an e-commerce platform.'
   s.licenses    = ['MIT']
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  s.add_dependency 'rails', '5.0.0.1'
+  s.add_dependency 'rails', '~>5.0.0'
   s.add_dependency 'bcrypt', '3.1.11'
   s.add_dependency 'ransack', '1.8.2'
   s.add_dependency 'kaminari', '0.17.0'
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'jquery-rails', '4.2.1'
   s.add_dependency 'roo', '2.5.1'
   s.add_dependency 'awesome_nested_set', '3.1.1'
-  # s.add_dependency 'globalize', branch: 'master'
+  #s.add_dependency 'globalize', branch: 'master'
 
   s.add_dependency 'nifty-key-value-store', '1.0.2'
   s.add_dependency 'nifty-utils', '1.1.7'
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'fog', '1.38.0'
   s.add_dependency 'net-ssh', '3.2.0'
   s.add_dependency 'mini_magick', '4.5.1'
-  s.add_dependency 'json', '1.8.3'
+  s.add_dependency 'json', '~>1.8.0'
 
   s.add_development_dependency 'coffee-rails', '4.2.1'
   s.add_development_dependency 'sass-rails', '5.0.6'
